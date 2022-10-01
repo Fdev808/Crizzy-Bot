@@ -131,7 +131,7 @@ return buffer
                      }
 
 	const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `*HIDETAG!*`,jpegThumbnail: global.thumb}}}
-	const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6283102650464-1589321480@g.us","inviteCode": "m","groupName": "Wa Bot", "caption": `© Fadhil Graphy`, 'jpegThumbnail': global.thumb}}}
+	const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6283102650464-1589321480@g.us","inviteCode": "m","groupName": "Wa Bot", "caption": `© Wa bot `, 'jpegThumbnail': global.thumb}}}
     const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6283102650464-1589321480@g.us" } : {}) },message: { "videoMessage": { "title":`*AUTO DOWNLOAD AUDIO YOUTUBE*`, "h": `Hmm`,'seconds': '10000000⁰0', 'caption': `*AUTO DOWNLOAD AUDIO YOUTUBE*`, 'jpegThumbnail': global.thumb}}}
 
 		//TEMPLATE BUTTON!
@@ -228,7 +228,7 @@ if (isSpam) {
 switch(command){
 			case'menu':
 			case'help': {
-				footerr = `Peringatan : Dilarang spam command/apapun ke bot!, dikarena mengakibatkan bot eror!\n© 2022 Fadhil Graphy`
+				footerr = `Peringatan : Dilarang spam command/apapun ke bot!, dikarena mengakibatkan bot eror!\n© 2022 Wa bot - md`
 				anu = `${fke}Hi ${m.pushName} 👋, i'am bot!${fke}
 
 ╭──❲ *WA BOT - MD* ❳
@@ -363,7 +363,7 @@ switch(command){
                             }]
 
 				conn.send5ButLoc(from, anu, footerr, global.thumb, btn)
-				conn.sendMessage(from, {text : `*This is an ad*\n\n•───────────•\n${jsn[0].setting}\n•───────────•\n\n_© 2022 Wabot.com_`}, {quoted :{
+				conn.sendMessage(from, {text : `*Wa bot untuk keperluan anda © 2022 Wabot.com_`}, {quoted :{
 				key: { fromMe: false,
 				participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6283102650464-1589321480@g.us" } : {})},
 				message: { "extendedTextMessage": {
@@ -379,7 +379,7 @@ switch(command){
 			case 'credityt':
 			case 'infop':{
 				//MASIH LANGKA OM HEHE
-				const _0x337fb1=_0x31eb;function _0x31eb(_0x451bc8,_0x5de346){const _0x115eea=_0x115e();return _0x31eb=function(_0x31ebf4,_0x1f27c6){_0x31ebf4=_0x31ebf4-0x166;let _0x4b4588=_0x115eea[_0x31ebf4];return _0x4b4588;},_0x31eb(_0x451bc8,_0x5de346);}(function(_0x3cea9d,_0x2c4fc4){const _0x5ee033=_0x31eb,_0x1b45d1=_0x3cea9d();while(!![]){try{const _0x442b6b=parseInt(_0x5ee033(0x17a))/0x1*(-parseInt(_0x5ee033(0x17d))/0x2)+parseInt(_0x5ee033(0x178))/0x3+parseInt(_0x5ee033(0x16a))/0x4*(parseInt(_0x5ee033(0x179))/0x5)+parseInt(_0x5ee033(0x170))/0x6*(-parseInt(_0x5ee033(0x166))/0x7)+parseInt(_0x5ee033(0x169))/0x8*(-parseInt(_0x5ee033(0x173))/0x9)+parseInt(_0x5ee033(0x17c))/0xa+-parseInt(_0x5ee033(0x175))/0xb;if(_0x442b6b===_0x2c4fc4)break;else _0x1b45d1['push'](_0x1b45d1['shift']());}catch(_0x227f64){_0x1b45d1['push'](_0x1b45d1['shift']());}}}(_0x115e,0xc4f87));const _0x4714c9=_0x3850;function _0x3850(_0x41782f,_0x1e7787){const _0x28f64a=_0x4dc5();return _0x3850=function(_0x2acaf2,_0x105999){_0x2acaf2=_0x2acaf2-0xe3;let _0x2082b8=_0x28f64a[_0x2acaf2];return _0x2082b8;},_0x3850(_0x41782f,_0x1e7787);}(function(_0x4cfa25,_0x45733f){const _0x2dfc4c=_0x31eb,_0x52a914=_0x3850,_0x1bf574=_0x4cfa25();while(!![]){try{const _0xdac033=-parseInt(_0x52a914(0xea))/0x1*(parseInt(_0x52a914(0xe4))/0x2)+parseInt(_0x52a914(0xee))/0x3+-parseInt(_0x52a914(0xeb))/0x4*(-parseInt(_0x52a914(0xf2))/0x5)+parseInt(_0x52a914(0xe8))/0x6+parseInt(_0x52a914(0xe3))/0x7+parseInt(_0x52a914(0xe6))/0x8*(parseInt(_0x52a914(0xf0))/0x9)+-parseInt(_0x52a914(0xf3))/0xa;if(_0xdac033===_0x45733f)break;else _0x1bf574[_0x2dfc4c(0x17f)](_0x1bf574['shift']());}catch(_0x4873c5){_0x1bf574[_0x2dfc4c(0x17f)](_0x1bf574['shift']());}}}(_0x4dc5,0x50733));function _0x4dc5(){const _0x2ed163=_0x31eb,_0x3763a6=['8432660EGOBKn',_0x2ed163(0x17e),_0x2ed163(0x171),'7900','8afIzaI',_0x2ed163(0x177),_0x2ed163(0x176),_0x2ed163(0x174),_0x2ed163(0x17b),'4hhcskV',_0x2ed163(0x16c),_0x2ed163(0x167),_0x2ed163(0x16b),_0x2ed163(0x16e),_0x2ed163(0x16d),_0x2ed163(0x16f),_0x2ed163(0x168)];return _0x4dc5=function(){return _0x3763a6;},_0x4dc5();}let message={'requestPaymentMessage':{'currencyCodeIso4217':_0x337fb1(0x174),'amount1000':_0x4714c9(0xef),'requestFrom':m[_0x4714c9(0xe7)],'noteMessage':{'extendedTextMessage':{'text':'*SC\x20/\x20CREDITS\x20/\x20INFO*\x0a\x0a*Script\x20:*\x20https://github.com/Wabot/Md-Bot\x0a*Base\x20:*\x20Base\x20From\x20Hazn\x0a\x0a*Donate\x20:*\x20083102650464\x20(Dana,\x20Shopee\x20Pay,\x20GoPay,\x20OvO)\x0aDont\x20Forget\x20Donate\x0a\x0a*Developer\x20:*\x0a_Fadhil\x20Graphy_\x0a_Affis\x20Junianto_\x0a_Hazn_\x0a\x0a*Thangks\x20To\x20:*\x0a_Ferdi\x20Z_\x0a_FRM\x20Developer_\x0a_DikaArdnt_\x0a_Fatih\x20Arridho_\x0a_Rzky\x20Fdlh_\x0a_Febriansyah\x20XD_\x0a_Arasya_\x0a\x0a*Team\x20:*\x0aPCS\x0aZacros\x0a\x0a','footer':_0x4714c9(0xed),'contextInfo':{'forwardingScore':0x270f,'isForwarded':!![]}}},'expiryTimestamp':_0x4714c9(0xf1),'amount':{'value':_0x4714c9(0xe5),'currencyCode':_0x4714c9(0xe9)}}};function _0x115e(){const _0xd12c53=['117BSIBtY','USD','24235145rSVCvy','2062482aOzyXe','sender','4321767ymSmoA','15LULidQ','785228OpaFWf','2DkFbiy','16042880LLfTBt','2sWgXcs','1611211dPKTjf','push','35HuIiOz','testes','198675eZhlqB','202776zYrHiG','1856444TcpGLg','1103733VKDvGL','relayMessage','2844891VJHjSF','199990','1660787819','374982zsIWos','124876dTSVkM','chat'];_0x115e=function(){return _0xd12c53;};return _0x115e();}conn[_0x4714c9(0xec)](m[_0x337fb1(0x172)],message,{'messageId':generateMessageID()});
+				const _0x337fb1=_0x31eb;function _0x31eb(_0x451bc8,_0x5de346){const _0x115eea=_0x115e();return _0x31eb=function(_0x31ebf4,_0x1f27c6){_0x31ebf4=_0x31ebf4-0x166;let _0x4b4588=_0x115eea[_0x31ebf4];return _0x4b4588;},_0x31eb(_0x451bc8,_0x5de346);}(function(_0x3cea9d,_0x2c4fc4){const _0x5ee033=_0x31eb,_0x1b45d1=_0x3cea9d();while(!![]){try{const _0x442b6b=parseInt(_0x5ee033(0x17a))/0x1*(-parseInt(_0x5ee033(0x17d))/0x2)+parseInt(_0x5ee033(0x178))/0x3+parseInt(_0x5ee033(0x16a))/0x4*(parseInt(_0x5ee033(0x179))/0x5)+parseInt(_0x5ee033(0x170))/0x6*(-parseInt(_0x5ee033(0x166))/0x7)+parseInt(_0x5ee033(0x169))/0x8*(-parseInt(_0x5ee033(0x173))/0x9)+parseInt(_0x5ee033(0x17c))/0xa+-parseInt(_0x5ee033(0x175))/0xb;if(_0x442b6b===_0x2c4fc4)break;else _0x1b45d1['push'](_0x1b45d1['shift']());}catch(_0x227f64){_0x1b45d1['push'](_0x1b45d1['shift']());}}}(_0x115e,0xc4f87));const _0x4714c9=_0x3850;function _0x3850(_0x41782f,_0x1e7787){const _0x28f64a=_0x4dc5();return _0x3850=function(_0x2acaf2,_0x105999){_0x2acaf2=_0x2acaf2-0xe3;let _0x2082b8=_0x28f64a[_0x2acaf2];return _0x2082b8;},_0x3850(_0x41782f,_0x1e7787);}(function(_0x4cfa25,_0x45733f){const _0x2dfc4c=_0x31eb,_0x52a914=_0x3850,_0x1bf574=_0x4cfa25();while(!![]){try{const _0xdac033=-parseInt(_0x52a914(0xea))/0x1*(parseInt(_0x52a914(0xe4))/0x2)+parseInt(_0x52a914(0xee))/0x3+-parseInt(_0x52a914(0xeb))/0x4*(-parseInt(_0x52a914(0xf2))/0x5)+parseInt(_0x52a914(0xe8))/0x6+parseInt(_0x52a914(0xe3))/0x7+parseInt(_0x52a914(0xe6))/0x8*(parseInt(_0x52a914(0xf0))/0x9)+-parseInt(_0x52a914(0xf3))/0xa;if(_0xdac033===_0x45733f)break;else _0x1bf574[_0x2dfc4c(0x17f)](_0x1bf574['shift']());}catch(_0x4873c5){_0x1bf574[_0x2dfc4c(0x17f)](_0x1bf574['shift']());}}}(_0x4dc5,0x50733));function _0x4dc5(){const _0x2ed163=_0x31eb,_0x3763a6=['8432660EGOBKn',_0x2ed163(0x17e),_0x2ed163(0x171),'7900','8afIzaI',_0x2ed163(0x177),_0x2ed163(0x176),_0x2ed163(0x174),_0x2ed163(0x17b),'4hhcskV',_0x2ed163(0x16c),_0x2ed163(0x167),_0x2ed163(0x16b),_0x2ed163(0x16e),_0x2ed163(0x16d),_0x2ed163(0x16f),_0x2ed163(0x168)];return _0x4dc5=function(){return _0x3763a6;},_0x4dc5();}let message={'requestPaymentMessage':{'currencyCodeIso4217':_0x337fb1(0x174),'amount1000':_0x4714c9(0xef),'requestFrom':m[_0x4714c9(0xe7)],'noteMessage':{'extendedTextMessage':{'text':'*SC\x20/\x20CREDITS\x20/\x20INFO*\x0a\x0a*Script\x20:*\x20https://github.com/Wabot/Md-Bot\x0a*Base\x20:*\x20Base\x20From\x20Hazn\x0a\x0a*Donate\x20:*\x20083102650464\x20(Dana,\x20Shopee\x20Pay,\x20GoPay,\x20OvO)\x0aDont\x20Forget\x20Donate\x0a\x0a*Developer\x20:*\x0a_Fdev90\x20Graphy_\x0a_Affis\x20Junianto_\x0a_Hazn_\x0a\x0a*Thangks\x20To\x20:*\x0a_Ferdi\x20Z_\x0a_FRM\x20Developer_\x0a_DikaArdnt_\x0a_Fatih\x20Arridho_\x0a_Rzky\x20Fdlh_\x0a_Febriansyah\x20XD_\x0a_Arasya_\x0a\x0a*Team\x20:*\x0aPCS\x0aZacros\x0a\x0a','footer':_0x4714c9(0xed),'contextInfo':{'forwardingScore':0x270f,'isForwarded':!![]}}},'expiryTimestamp':_0x4714c9(0xf1),'amount':{'value':_0x4714c9(0xe5),'currencyCode':_0x4714c9(0xe9)}}};function _0x115e(){const _0xd12c53=['117BSIBtY','USD','24235145rSVCvy','2062482aOzyXe','sender','4321767ymSmoA','15LULidQ','785228OpaFWf','2DkFbiy','16042880LLfTBt','2sWgXcs','1611211dPKTjf','push','35HuIiOz','testes','198675eZhlqB','202776zYrHiG','1856444TcpGLg','1103733VKDvGL','relayMessage','2844891VJHjSF','199990','1660787819','374982zsIWos','124876dTSVkM','chat'];_0x115e=function(){return _0xd12c53;};return _0x115e();}conn[_0x4714c9(0xec)](m[_0x337fb1(0x172)],message,{'messageId':generateMessageID()});
            	 }
            	 break
 			case 'donasi': 
@@ -416,7 +416,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
                     {buttonId: `qriscrizzy`, buttonText: {displayText: 'Pay With QRIS'}, type: 1},
                     {buttonId: `owner`, buttonText: {displayText: 'Confirm to owner'}, type: 2} 
                 ]
-					conn.sendMessage(from, { caption: pes, image: { url: 'https://telegra.ph/file/873b6214ac371c2aa19ce.jpg' } , buttons: but, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n For more information, please contact the owner!\n\n© 2022 Fadhil Graphy` })
+					conn.sendMessage(from, { caption: pes, image: { url: 'https://telegra.ph/file/873b6214ac371c2aa19ce.jpg' } , buttons: but, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n For more information, please contact the owner!\n\n© 2022 Wa bot Md` })
 					} 
 				break
 			case 'qris':{
@@ -424,7 +424,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 				bta = [
                  	   {buttonId: `owner`, buttonText: {displayText: 'Confirm to owner'}, type: 1} 
              	   ]
-						conn.sendMessage(from, { caption: captionQris, image: { url: 'https://telegra.ph/file/873b6214ac371c2aa19ce.jpg' } , buttons: bta, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n\n© 2022 Fadhil Graphy` })
+						conn.sendMessage(from, { caption: captionQris, image: { url: 'https://telegra.ph/file/873b6214ac371c2aa19ce.jpg' } , buttons: bta, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n\n© 2022 Wa bot Md` })
 						} 
 			 
 				break
@@ -536,7 +536,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
   				rows: list
 				},
 				]
-				conn.sendListMsg(from, `Pilih layanan sesuai dengan yang ingin anda beli!\njika anda membeli followers maka pilih followers\ndiharapkan anda sudah faham.`, `© 2022\nFadhil Graphy (owner bot)\nAffis Junianto (owner smm)`, `Hallo, Berikut layanan kami`, `Click Here`, nyobb, m)
+				conn.sendListMsg(from, `Pilih layanan sesuai dengan yang ingin anda beli!\njika anda membeli followers maka pilih followers\ndiharapkan anda sudah faham.`, `© 2022\nWa bot Md (owner bot)\nAffis Junianto (owner smm)`, `Hallo, Berikut layanan kami`, `Click Here`, nyobb, m)
 				}
 				break
 			case 'view': {
@@ -561,7 +561,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
   				rows: list
 				},
 				]
-				conn.sendListMsg(from, `Pilih layanan sesuai dengan yang ingin anda beli!\njika anda membeli followers maka pilih followers\ndiharapkan anda sudah faham.`, `© 2022\nFadhil Graphy (owner bot)\nAffis Junianto (owner smm)`, `Hallo, Berikut layanan kami`, `Click Here`, nyobb, m)
+				conn.sendListMsg(from, `Pilih layanan sesuai dengan yang ingin anda beli!\njika anda membeli followers maka pilih followers\ndiharapkan anda sudah faham.`, `© 2022\nWa bot md (owner bot)\nAffis Junianto (owner smm)`, `Hallo, Berikut layanan kami`, `Click Here`, nyobb, m)
 				}
 				break
 			case 'like':{
@@ -612,7 +612,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
   				conn.sendMessage(from, {
     				caption: cap, image: {
       				url: feta.data.qris
-    				}, buttons: buto, footer: `© 2022\nFadhil Graphy\nAffis Junianto`
+    				}, buttons: buto, footer: `© 2022\nWabot Md\nAffis Junianto`
   				})
 				}
 				console.log(feta)
@@ -660,7 +660,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
   				},
 				]
 				await conn.sendMessage(from, {
-  				text: `${captionnye}`, templateButtons: menuButa, footer: `Copy id pesanan anda dibawah ini\n\nampibismm.my.id\n© 2022 Fadhil Graphy`
+  				text: `${captionnye}`, templateButtons: menuButa, footer: `Copy id pesanan anda dibawah ini\n\nampibismm.my.id\n© 2022 Wa bot Md`
 				}, {
   				quoted: m
 				})
@@ -687,7 +687,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
   					})
 				}
 				let nyobb = list
-				conn.sendMessage(from, {text:`*PILLIH E-WALLET*\nPilih jenis wallet yang ingin anda gunakan!`, title: 'WALLET', footer: '© 2022 Fadhil Graphy', buttons: nyobb})
+				conn.sendMessage(from, {text:`*PILLIH E-WALLET*\nPilih jenis wallet yang ingin anda gunakan!`, title: 'WALLET', footer: '© 2022 Wa bot md', buttons: nyobb})
 				}
 				break
 			case 'tarikkomisikunci':
@@ -831,7 +831,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 
 				var sections = [{title: `Hallo *${pushname}* 👋 Silahkan pilih dibawah ini`, rows:list}]
 
-				var listms = { text: `*YOUTUBE SEARCH*\n\nBerhasil Menemukan Data\nHasil Pencarian : ${q}\nSilahkan Pilih Dibawah Ini`, footer: `Id : Jangan lupa donasi untuk suport bot yaa\nEn : don't forget to donate to support bots\n\n© 2022 Fadhil Graphy`, buttonText: "Click Here", sections }
+				var listms = { text: `*YOUTUBE SEARCH*\n\nBerhasil Menemukan Data\nHasil Pencarian : ${q}\nSilahkan Pilih Dibawah Ini`, footer: `Id : Jangan lupa donasi untuk suport bot yaa\nEn : don't forget to donate to support bots\n\n© 2022 Wabot Md`, buttonText: "Click Here", sections }
 
 				conn.sendMessage(from, listms, m)
 
@@ -949,7 +949,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 				let aud = await fdl.downloader.tiktok(text)
 				let cap = ` *TIKTOK AUDIO*
 
-				©️ *Creator:* Fadhil Graphy
+				©️ *Creator:* Wa bot Md
 				📌 *Title:* ${aud.title}
 				👤 *Author:* ${aud.author}
 
@@ -972,7 +972,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 							{title: `*Free Fire 720 Diamond`,rowId: `epep ${q}|720`, description: `\nTop up diamond free fire 720`}
 				]},
 				]
-				conn.sendListMsg(from, `Pilih layanan sesuai dengan yang ingin anda beli!\njika anda membeli followers maka pilih followers\ndiharapkan anda sudah faham.`, `© 2022\nFadhil Graphy (owner bot)\nAffis Junianto (owner smm)`, `Hallo, Berikut layanan kami`, `Click Here`, nyobb, m)
+				conn.sendListMsg(from, `Pilih layanan sesuai dengan yang ingin anda beli!\njika anda membeli followers maka pilih followers\ndiharapkan anda sudah faham.`, `© 2022\nWa bot Md (owner bot)\nAffis Junianto (owner smm)`, `Hallo, Berikut layanan kami`, `Click Here`, nyobb, m)
 				}
 				break
           	case 'epep':
@@ -1107,7 +1107,7 @@ break*/
                     {buttonId: `tes`, buttonText: {displayText: 'tes'}, type: 4},
                     {buttonId: `tes`, buttonText: {displayText: 'tes'}, type: 5}
                 ]
-                conn.sendMessage(from, {text:`*NGETES BUTTON*`, title: 'WALLET', footer: '© 2022 Fadhil Graphy', buttons: buttons})
+                conn.sendMessage(from, {text:`*NGETES BUTTON*`, title: 'WALLET', footer: '© 2022 wa bot md', buttons: buttons})
                 }
                 break
 			case 'request': case 'requestfitur':{
@@ -1192,7 +1192,7 @@ break*/
 				const menuButa = [
     				{index: 1, urlButton: {displayText: `Copy Here`, url: 'https://www.whatsapp.com/otp/copy/'+copynye}}
 				]
-  			  await conn.sendMessage(from, { text: `${captionnye}`, templateButtons: menuButa, footer: `Terimakasih telah menggunan Wa-Bot\nDonasi untuk suport bot!\n\n© 2022 Fadhil Graphy` })
+  			  await conn.sendMessage(from, { text: `${captionnye}`, templateButtons: menuButa, footer: `Terimakasih telah menggunan Wa-Bot\nDonasi untuk suport bot!\n\n© 2022 Wa bot Md` })
 				break
 	  	  case 'style': case 'styletext': {
 				let { styletext } = require('./lib/scraper')
@@ -1205,7 +1205,7 @@ break*/
 				title: i.name, rowId: `copystyle ${i.name} | ${i.result}`, description: `${i.result}`})
 				}
 				var sections = [{title: `Pilih salah satu lalu kirim.`, rows:list}]
-				var listms = { text: `*Srtle Text*\n\nBerhasil menemukan sytle font\nSilahkan pilih font yang anda suka.`, footer: `Terimakasih telah menggunan Wa-Bot\nDonasi untuk suport bot!\n\n© 2022 Fadhil Graphy`, buttonText: "Click Here", sections }
+				var listms = { text: `*Srtle Text*\n\nBerhasil menemukan sytle font\nSilahkan pilih font yang anda suka.`, footer: `Terimakasih telah menggunan Wa-Bot\nDonasi untuk suport bot!\n\n© 2022 Wa Bot Md`, buttonText: "Click Here", sections }
 				conn.sendMessage(from, listms, {quoted:m})
 	  		  }
 	  		  break
@@ -1523,7 +1523,7 @@ if ((m.mtype === 'reactionMessage') && m.isGroup) {
         	let buttons = [
                     {buttonId: `owner`, buttonText: {displayText: '𝑶𝑾𝑵𝑬𝑹 𝑩𝑶𝑻'}, type: 1}
                 ]
-			conn.sendMessage(from, {text:`INVITE DETECT\n\nMau masukin bot ini ke group kamu?`, title: 'LINK GROUP DECTETED', footer: '© 2022 Fadhil Graphy', buttons: buttons, headerType: 5})
+			conn.sendMessage(from, {text:`INVITE DETECT\n\nMau masukin bot ini ke group kamu?`, title: 'LINK GROUP DECTETED', footer: '© 2022 Wa bot', buttons: buttons, headerType: 5})
 		}
        /* if (m.mtype === 'stickerMessage') {
         	const reactionMessage = {
