@@ -226,114 +226,32 @@ if (isSpam) {
         }
 //+++++++++++++ START COMMAND +++++++++++++++
 switch(command){
-			case'menu':
-			case'help': {
+			case'sewa':
+			case'donasi': {
 				footerr = `Peringatan : Dilarang spam command/apapun ke bot!, dikarena mengakibatkan bot eror!\n© 2022 Wa bot - md`
 				anu = `${fke}Hi ${m.pushName} 👋, i'am bot!${fke}
 
-╭──❲ *WA BOT - MD* ❳
-│
-│ *Info*
-│> *Nama :* _「 ${m.pushName} 」_
-│> *Status :* _「 ${isPremium ? "Premium" : "Free"} 」_
-│> *Nomer :* _「 ${m.sender.split("@")[0]} 」_
-│> *Jam :* _「 ${times(new Date)} 」_
-│> *Tanggal :* _「 ${tanggal(new Date)} 」_
-│> *Runtime :* _「 ${runtime(process.uptime())} 」_
-│
-│ *Keterangan*
-│ • 🆆 = Fitur Berfungsi
-│ • 🅴 = Fitur Eror
-│ • 🅼 = Fitur Maintenance 
-│
-│ *Search Menu:*
-│   ╰≻ ${prefix}play [query] 🆆
-│   ╰≻ ${prefix}ytsearch [query] 🆆
-│   ╰≻ ${prefix}pinterest 🆆
-│
-│ *Group Menu:*
-│   ╰≻ ${prefix}add [number] 🆆
-│   ╰≻ ${prefix}kick [tag] 🆆
-│   ╰≻ ${prefix}tagall [psn] 🆆
-│   ╰≻ ${prefix}promote [tag] 🆆
-│   ╰≻ ${prefix}demote [tag] 🆆
-│   ╰≻ ${prefix}setname [text] 🆆
-│   ╰≻ ${prefix}setppgroup [reply] 🆆
-│   ╰≻ ${prefix}setdesk [text] 🆆
-│   ╰≻ ${prefix}hidetag [text] 🆆
-│   ╰≻ ${prefix}totag [reply] 🆆
-│   ╰≻ ${prefix}linkgroup 🆆
-│
-│ *Convert Menu :*
-│   ╰≻ ${prefix}nulis [text] 🆆
-│   ╰≻ ${prefix}sticker/s 🆆
-│   ╰≻ ${prefix}stickergif 🆆
-│   ╰≻ ${prefix}swm [q|q] 🆆
-│   ╰≻ ${prefix}toimg [reply] 🆆
-│   ╰≻ ${prefix}style [text] 🆆
-│   ╰≻ ${prefix}emojimix (😊+😐) 🆆
-│   ╰≻ ${prefix}emojimix2 (😐+😊) 🅼
-│   ╰≻ ${prefix}smeme [q|q] 🆆
-│   ╰≻ ${prefix}ttp [text] 🆆
-│   ╰≻ ${prefix}attp [text] 🆆
-│   ╰≻ ${prefix}ebinary [text] 🆆
-│   ╰≻ ${prefix}dbinary [code] 🆆
-│   ╰≻ ${prefix}tomp4 [send/reply] 🆆
-│   ╰≻ ${prefix}toaud [send/reply] 🆆
-│   ╰≻ ${prefix}tomp3 [send/reply] 🆆
-│   ╰≻ ${prefix}tovn [send/reply] 🆆
-│   ╰≻ ${prefix}togif [send/reply] 🆆
-│   ╰≻ ${prefix}tourl [send/reply] 🆆
-│
-│ *Fun Menu :*
-│   ╰≻ ${prefix}menfes 🆆
-│   ╰≻ ${prefix}jadian 🆆
-│   ╰≻ ${prefix}jodohku 🆆
-│
-│ *Downloader Menu :*
-│   ╰≻ ${prefix}tiktok [url] 🆆
-│   ╰≻ ${prefix}tiktokaudio [url] 🆆
-│   ╰≻ ${prefix}ytmp3 [url] 🆆
-│   ╰≻ ${prefix}ytmp4 [url] 🆆
-│
-│ *Premium Menu :*
-│   ╰≻ ${prefix}join [link] 🆆
-│
-│ *Other Menu :*
-│   ╰≻ ${prefix}requestfitur [text] 🆆
-│   ╰≻ ${prefix}ping 🆆
-│   ╰≻ ${prefix}listonline 🆆
-│   ╰≻ ${prefix}listgc 🆆
-│   ╰≻ ${prefix}listpc 🆆
-│
-│ *Owner Menu :*
-│   ╰≻ ${prefix}setiklan 🆆
-│   ╰≻ ${prefix}block [tag] 🆆
-│   ╰≻ ${prefix}unblock [tag] 🆆
-│   ╰≻ ${prefix}setstatusbot [text] 🆆
-│   ╰≻ ${prefix}setmamebot [text] 🆆
-│   ╰≻ ${prefix}setppbot [reply] 🆆
-│   ╰≻ ${prefix}cekkomisi 🆆
-│   ╰≻ ${prefix}leave 🆆
-│   ╰≻ ${prefix}anticall 🆆
-│   ╰≻ ${prefix}addprem [tag jum] 🆆
-│   ╰≻ ${prefix}delprem [tag] 🆆
-│   ╰≻ ${prefix}tarikkomisi [jum] 🆆
-│   ╰≻ ${prefix}sf [reply code] 🆆
-│   ╰≻ ${prefix}addanoucment (new fitur) 🆆
-│   ╰≻ > 🆆
-│   ╰≻ => 🆆
-│   ╰≻ $ 🆆
-│
-│
-│ *Anoucement 📢 :*
-│   ╰≻ Added ${snt[4]}
-│   ╰≻ Added ${snt[3]}
-│   ╰≻ Added ${snt[2]}
-│   ╰≻ Added ${snt[1]}
-│   ╰≻ Added ${snt[0]}
-│
-╰────────────────⊱
+*SEWA BOT DAN DONATE*
+
+*⚠️ Nomor :*
+(Dana, OVO, GoPay, ShopeePay)
+	╰≻ 083168004413
+(Axis)
+	╰≻ 083811034750
+(Qris)
+	╰≻ Click the button below. 
+
+*💯 Keuntungan sewa :*
+> Add ke group max 2 group
+> - 
+
+*📝 Note :*
+> Trimakasih yaa, ngga rugi kok jika kakak menambahkan bot ini ke dalam group kaka, karena hanya dengan membayar seikhlasnya kak hehe.
+> hasil dari bot ini akan digunakan untuk menyewa server dan perkembangan bot ini!
+> _Mengapa owner menetapkan biaya seikhlasnya?, Kenapa owner tidak mengambil untung yang banyak?_ *Dikarenakan owner menjalankan bot ini hanya untuk mengisi waktu luang/belajar, dan mempermudah pengguna bot😁.*
+
+*❗ Penting :*
+Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 `,
 					btn = [{
                                 urlButton: {
@@ -382,39 +300,122 @@ switch(command){
 				const _0x337fb1=_0x31eb;function _0x31eb(_0x451bc8,_0x5de346){const _0x115eea=_0x115e();return _0x31eb=function(_0x31ebf4,_0x1f27c6){_0x31ebf4=_0x31ebf4-0x166;let _0x4b4588=_0x115eea[_0x31ebf4];return _0x4b4588;},_0x31eb(_0x451bc8,_0x5de346);}(function(_0x3cea9d,_0x2c4fc4){const _0x5ee033=_0x31eb,_0x1b45d1=_0x3cea9d();while(!![]){try{const _0x442b6b=parseInt(_0x5ee033(0x17a))/0x1*(-parseInt(_0x5ee033(0x17d))/0x2)+parseInt(_0x5ee033(0x178))/0x3+parseInt(_0x5ee033(0x16a))/0x4*(parseInt(_0x5ee033(0x179))/0x5)+parseInt(_0x5ee033(0x170))/0x6*(-parseInt(_0x5ee033(0x166))/0x7)+parseInt(_0x5ee033(0x169))/0x8*(-parseInt(_0x5ee033(0x173))/0x9)+parseInt(_0x5ee033(0x17c))/0xa+-parseInt(_0x5ee033(0x175))/0xb;if(_0x442b6b===_0x2c4fc4)break;else _0x1b45d1['push'](_0x1b45d1['shift']());}catch(_0x227f64){_0x1b45d1['push'](_0x1b45d1['shift']());}}}(_0x115e,0xc4f87));const _0x4714c9=_0x3850;function _0x3850(_0x41782f,_0x1e7787){const _0x28f64a=_0x4dc5();return _0x3850=function(_0x2acaf2,_0x105999){_0x2acaf2=_0x2acaf2-0xe3;let _0x2082b8=_0x28f64a[_0x2acaf2];return _0x2082b8;},_0x3850(_0x41782f,_0x1e7787);}(function(_0x4cfa25,_0x45733f){const _0x2dfc4c=_0x31eb,_0x52a914=_0x3850,_0x1bf574=_0x4cfa25();while(!![]){try{const _0xdac033=-parseInt(_0x52a914(0xea))/0x1*(parseInt(_0x52a914(0xe4))/0x2)+parseInt(_0x52a914(0xee))/0x3+-parseInt(_0x52a914(0xeb))/0x4*(-parseInt(_0x52a914(0xf2))/0x5)+parseInt(_0x52a914(0xe8))/0x6+parseInt(_0x52a914(0xe3))/0x7+parseInt(_0x52a914(0xe6))/0x8*(parseInt(_0x52a914(0xf0))/0x9)+-parseInt(_0x52a914(0xf3))/0xa;if(_0xdac033===_0x45733f)break;else _0x1bf574[_0x2dfc4c(0x17f)](_0x1bf574['shift']());}catch(_0x4873c5){_0x1bf574[_0x2dfc4c(0x17f)](_0x1bf574['shift']());}}}(_0x4dc5,0x50733));function _0x4dc5(){const _0x2ed163=_0x31eb,_0x3763a6=['8432660EGOBKn',_0x2ed163(0x17e),_0x2ed163(0x171),'7900','8afIzaI',_0x2ed163(0x177),_0x2ed163(0x176),_0x2ed163(0x174),_0x2ed163(0x17b),'4hhcskV',_0x2ed163(0x16c),_0x2ed163(0x167),_0x2ed163(0x16b),_0x2ed163(0x16e),_0x2ed163(0x16d),_0x2ed163(0x16f),_0x2ed163(0x168)];return _0x4dc5=function(){return _0x3763a6;},_0x4dc5();}let message={'requestPaymentMessage':{'currencyCodeIso4217':_0x337fb1(0x174),'amount1000':_0x4714c9(0xef),'requestFrom':m[_0x4714c9(0xe7)],'noteMessage':{'extendedTextMessage':{'text':'*SC\x20/\x20CREDITS\x20/\x20INFO*\x0a\x0a*Script\x20:*\x20https://github.com/Wabot/Md-Bot\x0a*Base\x20:*\x20Base\x20From\x20Hazn\x0a\x0a*Donate\x20:*\x20083102650464\x20(Dana,\x20Shopee\x20Pay,\x20GoPay,\x20OvO)\x0aDont\x20Forget\x20Donate\x0a\x0a*Developer\x20:*\x0a_Fdev90\x20Graphy_\x0a_Affis\x20Junianto_\x0a_Hazn_\x0a\x0a*Thangks\x20To\x20:*\x0a_Ferdi\x20Z_\x0a_FRM\x20Developer_\x0a_DikaArdnt_\x0a_Fatih\x20Arridho_\x0a_Rzky\x20Fdlh_\x0a_Febriansyah\x20XD_\x0a_Arasya_\x0a\x0a*Team\x20:*\x0aPCS\x0aZacros\x0a\x0a','footer':_0x4714c9(0xed),'contextInfo':{'forwardingScore':0x270f,'isForwarded':!![]}}},'expiryTimestamp':_0x4714c9(0xf1),'amount':{'value':_0x4714c9(0xe5),'currencyCode':_0x4714c9(0xe9)}}};function _0x115e(){const _0xd12c53=['117BSIBtY','USD','24235145rSVCvy','2062482aOzyXe','sender','4321767ymSmoA','15LULidQ','785228OpaFWf','2DkFbiy','16042880LLfTBt','2sWgXcs','1611211dPKTjf','push','35HuIiOz','testes','198675eZhlqB','202776zYrHiG','1856444TcpGLg','1103733VKDvGL','relayMessage','2844891VJHjSF','199990','1660787819','374982zsIWos','124876dTSVkM','chat'];_0x115e=function(){return _0xd12c53;};return _0x115e();}conn[_0x4714c9(0xec)](m[_0x337fb1(0x172)],message,{'messageId':generateMessageID()});
            	 }
            	 break
-			case 'donasi': 
-					case 'sewabot': 
-					case 'sewa': 
-					case 'buypremium': 
-					case 'donate': 
-					case 'price': {
-					 let pes = `*Hallo kak, mau invite bot/donasi ya*
+			case 'menu': 
+					case 'help': 
+					case 'help1': 
+					case 'menu2': 
+					case 'menu3': 
+					case '.m': {
+					 let pes = ` *Hai kak*
 					
-*⚠️ Nomor :*
-(Dana, OVO, GoPay, ShopeePay)
-	╰≻ 083168004413
-(Axis)
-	╰≻ 083811034750
-(Qris)
-	╰≻ Click the button below. 
-
-*💯 Keuntungan :*
-> Add ke group max 2 group
-> - 
-
-*📝 Note :*
-> Trimakasih yaa, ngga rugi kok jika kakak menambahkan bot ini ke dalam group kaka, karena hanya dengan membayar seikhlasnya kak hehe.
-> hasil dari bot ini akan digunakan untuk menyewa server dan perkembangan bot ini!
-> _Mengapa owner menetapkan biaya seikhlasnya?, Kenapa owner tidak mengambil untung yang banyak?_ *Dikarenakan owner menjalankan bot ini hanya untuk mengisi waktu luang/belajar, dan mempermudah pengguna bot😁.*
-
-*❗ Penting :*
-Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
+╭──❲ *WA BOT - MD* ❳
+│
+│ *Info*
+│> *Nama :* _「 ${m.pushName} 」_
+│> *Status :* _「 ${isPremium ? "Premium" : "Free"} 」_
+│> *Nomer :* _「 ${m.sender.split("@")[0]} 」_
+│> *Jam :* _「 ${times(new Date)} 」_
+│> *Tanggal :* _「 ${tanggal(new Date)} 」_
+│> *Runtime :* _「 ${runtime(process.uptime())} 」_
+│
+│ *Note*
+│ Jangan spam saat 
+│ sedang menggunakan bot
+│ 
+│
+│ *Search Menu:*
+│   ╰≻ ${prefix}play [query] 
+│   ╰≻ ${prefix}ytsearch [query] 
+│   ╰≻ ${prefix}pinterest 
+│
+│ *Group Menu:*
+│   ╰≻ ${prefix}add [number] 
+│   ╰≻ ${prefix}kick [tag] 
+│   ╰≻ ${prefix}tagall [psn] 
+│   ╰≻ ${prefix}promote [tag] 
+│   ╰≻ ${prefix}demote [tag] 
+│   ╰≻ ${prefix}setname [text] 
+│   ╰≻ ${prefix}setppgroup [reply] 
+│   ╰≻ ${prefix}setdesk [text] 
+│   ╰≻ ${prefix}hidetag [text] 
+│   ╰≻ ${prefix}totag [reply] 
+│   ╰≻ ${prefix}linkgroup 
+│
+│ *Convert Menu :*
+│   ╰≻ ${prefix}nulis [text] 
+│   ╰≻ ${prefix}sticker/s 
+│   ╰≻ ${prefix}stickergif 
+│   ╰≻ ${prefix}swm [q|q] 
+│   ╰≻ ${prefix}toimg [reply] 
+│   ╰≻ ${prefix}style [text] 
+│   ╰≻ ${prefix}emojimix (🤪+😂) 
+│   ╰≻ ${prefix}smeme [q|q] 
+│   ╰≻ ${prefix}ttp [text] 
+│   ╰≻ ${prefix}attp [text] 
+│   ╰≻ ${prefix}ebinary [text] 
+│   ╰≻ ${prefix}dbinary [code] 
+│   ╰≻ ${prefix}tomp4 [send/reply] 
+│   ╰≻ ${prefix}toaud [send/reply] 
+│   ╰≻ ${prefix}tomp3 [send/reply] 
+│   ╰≻ ${prefix}tovn [send/reply] 
+│   ╰≻ ${prefix}togif [send/reply] 
+│   ╰≻ ${prefix}tourl [send/reply] 
+│
+│ *Fun Menu :*
+│   ╰≻ ${prefix}menfes 
+│   ╰≻ ${prefix}jadian 
+│   ╰≻ ${prefix}jodohku 
+│
+│ *Downloader Menu :*
+│   ╰≻ ${prefix}tiktok [url] 
+│   ╰≻ ${prefix}tiktokaudio [url] 
+│   ╰≻ ${prefix}ytmp3 [url] 
+│   ╰≻ ${prefix}ytmp4 [url] 
+│
+│ *Premium Menu :*
+│   ╰≻ ${prefix}join [link] 
+│
+│ *Other Menu :*
+│   ╰≻ ${prefix}requestfitur [text] 
+│   ╰≻ ${prefix}ping 
+│   ╰≻ ${prefix}listonline 
+│   ╰≻ ${prefix}listgc 
+│   ╰≻ ${prefix}listpc 
+│
+│ *Owner Menu :*
+│   ╰≻ ${prefix}setiklan 
+│   ╰≻ ${prefix}block [tag] 
+│   ╰≻ ${prefix}unblock [tag] 
+│   ╰≻ ${prefix}setstatusbot [text] 
+│   ╰≻ ${prefix}setmamebot [text] 
+│   ╰≻ ${prefix}setppbot [reply] 
+│   ╰≻ ${prefix}cekkomisi 
+│   ╰≻ ${prefix}leave 
+│   ╰≻ ${prefix}anticall 
+│   ╰≻ ${prefix}addprem [tag jum] 
+│   ╰≻ ${prefix}delprem [tag] 
+│   ╰≻ ${prefix}tarikkomisi [jum] 
+│   ╰≻ ${prefix}sf [reply code] 
+│   ╰≻ ${prefix}addanoucment (new fitur) 
+│   ╰≻ > 
+│   ╰≻ => 
+│   ╰≻ $ 
+│
+│
+│ *Anoucement 📢 :*
+│   ╰≻ Added ${snt[4]}
+│   ╰≻ Added ${snt[3]}
+│   ╰≻ Added ${snt[2]}
+│   ╰≻ Added ${snt[1]}
+│   ╰≻ Added ${snt[0]}
+│
+╰────────────────
 						`
 					gambar = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMkjAJhYezm4h6k1AJ6qfreGkaRdBcR7UHMw&usqp=CAU`
 
 				 but = [
-                    {buttonId: `qriscrizzy`, buttonText: {displayText: 'Pay With QRIS'}, type: 1},
-                    {buttonId: `owner`, buttonText: {displayText: 'Confirm to owner'}, type: 2} 
+                    {buttonId: `qriscrizzy`, buttonText: {displayText: 'Sewa Bot 🐋'}, type: 1},
+                    {buttonId: `owner`, buttonText: {displayText: 'Developer 🇯🇵'}, type: 2} 
                 ]
 					conn.sendMessage(from, { caption: pes, image: { url: 'https://telegra.ph/file/873b6214ac371c2aa19ce.jpg' } , buttons: but, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n For more information, please contact the owner!\n\n© 2022 Wa bot Md` })
 					} 
