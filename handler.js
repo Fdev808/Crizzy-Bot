@@ -1230,60 +1230,11 @@ break*/
                     await conn.sendButtonText(from, buttons, `Mode AntiCall`, global.footer, m)
                 }
           	   }
-          	   
-          	  case prefix+'apakah': {
-				if (!q) return reply(`Penggunaan ${command} text\n\nContoh : ${command} saya wibu`)
-					const apa = ['Iyaa', 'Tidak', 'iya kali','engga']
-					const kah = apa[Math.floor(Math.random() * apa.length)]
-conn.sendMessage(from, { text: `Pertanyaan : Apakah ${q}\nJawaban : ${kah}` }, { quoted: msg })
-limitAdd(sender, limit)
-					break
-case 'bisakah': case 'bisagak': {
-				if (!q) return reply(`Penggunaan ${command} text\n\nContoh : ${command} saya wibu`)
-					const bisa = ['Bisa','Gak Bisa','Gak Bisa Ajg Aaokawpk','TENTU PASTI KAMU BISA!!!!']
-					const ga = bisa[Math.floor(Math.random() * bisa.length)]
-conn.sendMessage(from, { text: `Pertanyaan : ${q}\nJawaban : ${ga}` }, { quoted: msg })
-limitAdd(sender, limit)
-					break
-case 'bagaimanakah': case 'bagaimana': case 'gimana': {
-				if (!q) return reply(`Penggunaan ${command} text\n\nContoh : ${command} saya wibu`)
-					const gimana = ['Gak Gimana2', 'Sulit Itu Bro', 'Maaf Bot Tidak Bisa Menjawab', 'Coba Deh Cari Di Gugel','astaghfirallah Beneran???','Pusing ah','Owhh Begitu:(','Yang Sabar Ya Bos:(','Gimana yeee']
-					const ya = gimana[Math.floor(Math.random() * gimana.length)]
-conn.sendMessage(from, { text: `Pertanyaan : ${q}\nJawaban : ${ya}` }, { quoted: msg })
-limitAdd(sender, limit)
-					break
-case prefix+'rate': {
-				if (!q) return reply(`Penggunaan ${command} text\n\nContoh : ${command} Gambar aku`)
-					const ra = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
-					const te = ra[Math.floor(Math.random() * ra.length)]
-conn.sendMessage(from, { text: `Rate : ${q}\nJawaban : *${te}%*` }, { quoted: msg })
-limitAdd(sender, limit)
-					break
-case 'gantengcek': case 'cekganteng': {
-				if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Satria`)
-					const gan = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
-					const teng = gan[Math.floor(Math.random() * gan.length)]
-conn.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${teng}%*` }, { quoted: msg })
-limitAdd(sender, limit)
-					break
-case 'cekcantik': case 'cantikcek': {
-				if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Satria`)
-					const can = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
-					const tik = can[Math.floor(Math.random() * can.length)]
-conn.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${tik}%*` }, { quoted: msg })
-limitAdd(sender, limit)
-					break
-case 'kapankah': case 'kapan': {
-				if (!q) return reply(`Penggunaan ${command} Pertanyaan\n\nContoh : ${command} Saya Mati`)
-					const kapan = ['Kapan yaa','Jam 11 Malam','Lusa','besok','5 Hari Lagi', '10 Hari Lagi', '15 Hari Lagi','20 Hari Lagi', '25 Hari Lagi','30 Hari Lagi','35 Hari Lagi','40 Hari Lagi','45 Hari Lagi','50 Hari Lagi','55 Hari Lagi','60 Hari Lagi','65 Hari Lagi','70 Hari Lagi','75 Hari Lagi','80 Hari Lagi','85 Hari Lagi','90 Hari Lagi','100 Hari Lagi','5 Bulan Lagi', '10 Bulan Lagi', '15 Bulan Lagi','20 Bulan Lagi', '25 Bulan Lagi','30 Bulan Lagi','35 Bulan Lagi','40 Bulan Lagi','45 Bulan Lagi','50 Bulan Lagi','55 Bulan Lagi','60 Bulan Lagi','65 Bulan Lagi','70 Bulan Lagi','75 Bulan Lagi','80 Bulan Lagi','85 Bulan Lagi','90 Bulan Lagi','100 Bulan Lagi','1 Tahun Lagi','2 Tahun Lagi','3 Tahun Lagi','4 Tahun Lagi','5 Tahun Lagi','Besok','Lusa',`Abis Command Ini Juga Lu ${q}`]
-					const kapankah = kapan[Math.floor(Math.random() * kapan.length)]
-conn.sendMessage(from, { text: `Pertanyaan : ${q}\nJawaban : *${kapankah}*` }, { quoted: msg })
-limitAdd(sender, limit)
-          	  break
-  case prefix+'adit': {
-       var text = `${q}`
-       var cimcimi = await fetchJson(`https://api.simsimi.net/v2/?text=${text}&lc=id`)
-       conn.sendMessage(from, { text: cimcimi.success}, {quoted: msg})
+          	   break
+            case 'adit': {
+                var text = `${q}`
+                var cimcimi = await fetchJson(`https://api.simsimi.net/v2/?text=${text}&lc=id`)
+                conn.sendMessage(from, { text: cimcimi.success}, {quoted: msg})
        	      break
        	      case 'darkjokes': case 'meme': case 'jokes': {
                var darkjoke = JSON.parse(fs.readFileSync('./lib/darkjokes.js')) // posisinya sesuain
