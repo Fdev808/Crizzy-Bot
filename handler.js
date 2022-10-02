@@ -712,7 +712,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 				m.reply(`*Success*\n\n*Follow Intruction In Private Chat*\n\n*Name*: ${name}\n*Password*: **********g`)
 				conn.sendMessage(`${sender.split("@")[0]}@s.whatsapp.net`,'*Token*: '+ '\n\n*type : .login <token>*')
 				break*/
-			case 'meme:
+			case 'memek':
 			case 'contact': {
                 conn.sendContact(from, global.owner, m)
           	  }
