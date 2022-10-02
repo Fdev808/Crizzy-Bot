@@ -16,7 +16,7 @@ const { color, mylog, infolog } = require("./lib/color")
 const moment = require('moment-timezone');
 const ytdl = require('ytdl-core');
 const hentai = require('nhentai');
-const { darkjokes } = require("../lib/darkjokes")
+const { darkjokes } = require("/lib/darkjokes")
 const fdl = require("caliph-api");
 const hikki = require("hikki-me");
 const ffmpeg = require('fluent-ffmpeg');
@@ -704,7 +704,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
                 conn.sendMessage(from, { text: cimcimi.success}, {quoted: msg})
 				break
 			case 'darkjokes':
-               var darkjoke = JSON.parse(fs.readFileSync('./lib/darkjokes.js')) // posisinya sesuain
+               var darkjoke = JSON.parse(fs.readFileSync('/lib/darkjokes.js')) // posisinya sesuain
                var hasil = pickRandom(darkjoke)
                conn.sendMessage(from, {caption: 'Yanto tusbol', image: {url: hasil.result}}, {quoted: msg})
         	    break
