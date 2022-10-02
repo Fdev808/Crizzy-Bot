@@ -306,110 +306,108 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 					case 'menu2': 
 					case 'menu3': 
 					case '.m': {
-					 let pes = ` *Hai kak*
+					 let pes = ` *HAI KAK SAYA WA BOT*
 					
-╭──❲ *WA BOT - MD* ❳
-│
-│ *Info*
-│> *Nama :* _「 ${m.pushName} 」_
-│> *Status :* _「 ${isPremium ? "Premium" : "Free"} 」_
-│> *Nomer :* _「 ${m.sender.split("@")[0]} 」_
-│> *Jam :* _「 ${times(new Date)} 」_
-│> *Tanggal :* _「 ${tanggal(new Date)} 」_
-│> *Runtime :* _「 ${runtime(process.uptime())} 」_
-│
-│ *Note*
-│ Jangan spam saat 
-│ sedang menggunakan bot
-│ 
-│
-│ *Search Menu:*
-│   ╰≻ ${prefix}play [query] 
-│   ╰≻ ${prefix}ytsearch [query] 
-│   ╰≻ ${prefix}pinterest 
-│
-│ *Group Menu:*
-│   ╰≻ ${prefix}add [number] 
-│   ╰≻ ${prefix}kick [tag] 
-│   ╰≻ ${prefix}tagall [psn] 
-│   ╰≻ ${prefix}promote [tag] 
-│   ╰≻ ${prefix}demote [tag] 
-│   ╰≻ ${prefix}setname [text] 
-│   ╰≻ ${prefix}setppgroup [reply] 
-│   ╰≻ ${prefix}setdesk [text] 
-│   ╰≻ ${prefix}hidetag [text] 
-│   ╰≻ ${prefix}totag [reply] 
-│   ╰≻ ${prefix}linkgroup 
-│
-│ *Convert Menu :*
-│   ╰≻ ${prefix}nulis [text] 
-│   ╰≻ ${prefix}sticker/s 
-│   ╰≻ ${prefix}stickergif 
-│   ╰≻ ${prefix}swm [q|q] 
-│   ╰≻ ${prefix}toimg [reply] 
-│   ╰≻ ${prefix}style [text] 
-│   ╰≻ ${prefix}emojimix (🤪+😂) 
-│   ╰≻ ${prefix}smeme [q|q] 
-│   ╰≻ ${prefix}ttp [text] 
-│   ╰≻ ${prefix}attp [text] 
-│   ╰≻ ${prefix}ebinary [text] 
-│   ╰≻ ${prefix}dbinary [code] 
-│   ╰≻ ${prefix}tomp4 [send/reply] 
-│   ╰≻ ${prefix}toaud [send/reply] 
-│   ╰≻ ${prefix}tomp3 [send/reply] 
-│   ╰≻ ${prefix}tovn [send/reply] 
-│   ╰≻ ${prefix}togif [send/reply] 
-│   ╰≻ ${prefix}tourl [send/reply] 
-│
-│ *Fun Menu :*
-│   ╰≻ ${prefix}menfes 
-│   ╰≻ ${prefix}jadian 
-│   ╰≻ ${prefix}jodohku 
-│
-│ *Downloader Menu :*
-│   ╰≻ ${prefix}tiktok [url] 
-│   ╰≻ ${prefix}tiktokaudio [url] 
-│   ╰≻ ${prefix}ytmp3 [url] 
-│   ╰≻ ${prefix}ytmp4 [url] 
-│
-│ *Premium Menu :*
-│   ╰≻ ${prefix}join [link] 
-│
-│ *Other Menu :*
-│   ╰≻ ${prefix}requestfitur [text] 
-│   ╰≻ ${prefix}ping 
-│   ╰≻ ${prefix}listonline 
-│   ╰≻ ${prefix}listgc 
-│   ╰≻ ${prefix}listpc 
-│
-│ *Owner Menu :*
-│   ╰≻ ${prefix}setiklan 
-│   ╰≻ ${prefix}block [tag] 
-│   ╰≻ ${prefix}unblock [tag] 
-│   ╰≻ ${prefix}setstatusbot [text] 
-│   ╰≻ ${prefix}setmamebot [text] 
-│   ╰≻ ${prefix}setppbot [reply] 
-│   ╰≻ ${prefix}cekkomisi 
-│   ╰≻ ${prefix}leave 
-│   ╰≻ ${prefix}anticall 
-│   ╰≻ ${prefix}addprem [tag jum] 
-│   ╰≻ ${prefix}delprem [tag] 
-│   ╰≻ ${prefix}tarikkomisi [jum] 
-│   ╰≻ ${prefix}sf [reply code] 
-│   ╰≻ ${prefix}addanoucment (new fitur) 
-│   ╰≻ > 
-│   ╰≻ => 
-│   ╰≻ $ 
-│
-│
-│ *Anoucement 📢 :*
-│   ╰≻ Added ${snt[4]}
-│   ╰≻ Added ${snt[3]}
-│   ╰≻ Added ${snt[2]}
-│   ╰≻ Added ${snt[1]}
-│   ╰≻ Added ${snt[0]}
-│
-╰────────────────
+
+
+ *INFORMATION*
+  ≻ *Nama :* ${m.pushName} 」_
+  ≻ *Status :* ${isPremium ? "Premium" : "Free"}
+  ≻ *Nomer :* ${m.sender.split("@")[0]}
+  ≻ *Jam :* ${times(new Date)} 
+  ≻ *Tanggal :* ${tanggal(new Date)}
+  ≻ *Runtime :* ${runtime(process.uptime())}
+
+    *Note*
+    Jangan spam saat 
+    sedang menggunakan bot
+ 
+
+      *Search Menu 🔍*
+   ✎ ${prefix}play [query] 
+   ✎ ${prefix}ytsearch [query] 
+   ✎ ${prefix}pinterest 
+
+      *Group Menu 👥*
+   ✎ ${prefix}add [number] 
+   ✎ ${prefix}kick [tag] 
+   ✎ ${prefix}tagall [psn] 
+   ✎ ${prefix}promote [tag] 
+   ✎ ${prefix}demote [tag] 
+   ✎ ${prefix}setname [text] 
+   ✎ ${prefix}setppgroup [reply] 
+   ✎ ${prefix}setdesk [text] 
+   ✎ ${prefix}hidetag [text] 
+   ✎ ${prefix}totag [reply] 
+   ✎ ${prefix}linkgroup 
+
+      *Convert Menu 📝*
+   ✎ ${prefix}nulis [text] 
+   ✎ ${prefix}sticker/s 
+   ✎ ${prefix}stickergif 
+   ✎ ${prefix}swm [q|q] 
+   ✎ ${prefix}toimg [reply] 
+   ✎ ${prefix}style [text] 
+   ✎ ${prefix}emojimix 🤪+😂
+   ✎ ${prefix}smeme [q|q] 
+   ✎ ${prefix}ttp [text] 
+   ✎ ${prefix}attp [text] 
+   ✎ ${prefix}ebinary [text] 
+   ✎ ${prefix}dbinary [code] 
+   ✎ ${prefix}tomp4 [send/reply] 
+   ✎ ${prefix}toaud [send/reply] 
+   ✎ ${prefix}tomp3 [send/reply] 
+   ✎ ${prefix}tovn [send/reply] 
+   ✎ ${prefix}togif [send/reply] 
+   ✎ ${prefix}tourl [send/reply] 
+
+      *Fun Menu 🐋*
+   ✎ ${prefix}menfes 
+   ✎ ${prefix}jadian 
+   ✎ ${prefix}jodohku 
+
+      *Downloader Menu 📥*
+   ✎ ${prefix}tiktok [url] 
+   ✎ ${prefix}tiktokaudio [url] 
+   ✎ ${prefix}ytmp3 [url] 
+   ✎ ${prefix}ytmp4 [url] 
+
+      *Premium Menu 💸*
+   ✎ ${prefix}join [link] 
+
+      *Other Menu 🏷️*
+   ✎ ${prefix}requestfitur [text] 
+   ✎ ${prefix}ping 
+   ✎ ${prefix}listonline 
+   ✎ ${prefix}listgc 
+   ✎ ${prefix}listpc 
+
+      *Owner Menu 🧑*
+   ✎ ${prefix}setiklan 
+   ✎ ${prefix}block [tag] 
+   ✎ ${prefix}unblock [tag] 
+   ✎ ${prefix}setstatusbot [text] 
+   ✎ ${prefix}setmamebot [text] 
+   ✎ ${prefix}setppbot [reply] 
+   ✎ ${prefix}cekkomisi 
+   ✎ ${prefix}leave 
+   ✎ ${prefix}anticall 
+   ✎ ${prefix}addprem [tag jum] 
+   ✎ ${prefix}delprem [tag] 
+   ✎ ${prefix}tarikkomisi [jum] 
+   ✎ ${prefix}sf [reply code] 
+   ✎ ${prefix}addanoucment (new fitur) 
+   ✎ > 
+   ✎ => 
+   ✎ $ 
+
+
+      *Anoucement 📢 :*
+   ✎ Added ${snt[4]}
+   ✎ Added ${snt[3]}
+   ✎ Added ${snt[2]}
+   ✎ Added ${snt[1]}
+   ✎ Added ${snt[0]}
 						`
 					gambar = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMkjAJhYezm4h6k1AJ6qfreGkaRdBcR7UHMw&usqp=CAU`
 
@@ -464,9 +462,9 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 				}
 				}
 				break
-			case 'tes':{
+			case 'owner':{
 				//if (!isPremium) return m.reply('premium only')
-				m.reply('affah iyh')
+				m.reply('@6283811034750')
 				}
 				break
 			case 'join': {
@@ -714,8 +712,8 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 				m.reply(`*Success*\n\n*Follow Intruction In Private Chat*\n\n*Name*: ${name}\n*Password*: **********g`)
 				conn.sendMessage(`${sender.split("@")[0]}@s.whatsapp.net`,'*Token*: '+ '\n\n*type : .login <token>*')
 				break*/
-			case 'owner':
-			case 'creator': {
+			case kntl:
+			case 'contact': {
                 conn.sendContact(from, global.owner, m)
           	  }
         	    break
