@@ -699,24 +699,17 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 				tarikom = await fetchJson(`https://ampibismm.my.id/api/json?bot=true&api_key=${global.ApiKey}&action=withdraw&amount=${juml}&wallet=${walle}&nomor=${smm.nomor}&an=${smm.atasnama}`)
 				conn.sendMessage(from, {text: `${tarikom.data.msg}`}, {quoted:m})
 				break
-			/*case'reg':
-			case'log':
-				if(isReg) return m.reply('*Your Already Create Account*')
-				tokens = Math.floor(Math.random() * 100)
-				fs.writeFileSync(`./temp/token_${senderName}.json`,JSON.stringify(tokens))
-				name = body.slice(4)
-				email = body.slice(4)
-				reg = name.split('|')[0]
-				regas = email.split('|')[0]
-				regis.push(sender)
-				fs.writeFileSync('./database/reg.json',JSON.stringify(regis))
-				m.reply(`*Success*\n\n*Follow Intruction In Private Chat*\n\n*Name*: ${name}\n*Password*: **********g`)
-				conn.sendMessage(`${sender.split("@")[0]}@s.whatsapp.net`,'*Token*: '+ '\n\n*type : .login <token>*')
-				break*/
-			case 'memek':
-			case 'contact': {
-                conn.sendContact(from, global.owner, m)
-          	  }
+			case'simi':
+			case'adit':
+				var cimcimi = await fetchJson(`https://api.simsimi.net/v2/?text=${text}&lc=id`)
+                conn.sendMessage(from, { text: cimcimi.success}, {quoted: msg})
+				break
+			case 'darkjokes':
+			case 'jokes': {
+               var darkjoke = JSON.parse(fs.readFileSync('./lib/darkjokes.js')) // posisinya sesuain
+               var hasil = pickRandom(darkjoke)
+               conn.sendMessage(from, {caption: 'Yanto tusbol', image: {url: hasil.result}}, {quoted: msg})
+               limitAdd(sender, limit)
         	    break
 			case'nulis':
 				if(args.length < 1) return m.reply('text nya')
@@ -1231,17 +1224,6 @@ break*/
                 }
           	   }
           	   break
-            case 'adit': {
-                var text = `${q}`
-                var cimcimi = await fetchJson(`https://api.simsimi.net/v2/?text=${text}&lc=id`)
-                conn.sendMessage(from, { text: cimcimi.success}, {quoted: msg})
-       	      break
-       	      case 'darkjokes': case 'meme': case 'jokes': {
-               var darkjoke = JSON.parse(fs.readFileSync('./lib/darkjokes.js')) // posisinya sesuain
-               var hasil = pickRandom(darkjoke)
-               conn.sendMessage(from, {caption: 'Yanto tusbol', image: {url: hasil.result}}, {quoted: msg})
-               limitAdd(sender, limit)
-       	      break
 			case 'ping': case 'botstatus': case 'statusbot': {
            	  const used = process.memoryUsage()
            	  const cpus = os.cpus().map(cpu => {
