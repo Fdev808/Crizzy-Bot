@@ -415,7 +415,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
                     {buttonId: `qriscrizzy`, buttonText: {displayText: 'Sewa Bot 🐋'}, type: 1},
                     {buttonId: `owner`, buttonText: {displayText: 'Developer 🇯🇵'}, type: 2} 
                 ]
-					conn.sendMessage(from, { caption: pes, image: { url: 'https://telegra.ph/file/873b6214ac371c2aa19ce.jpg' } , buttons: but, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n For more information, please contact the owner!\n\n© 2022 Wa bot Md` })
+					conn.sendMessage(from, { caption: pes, image: { url: 'https://telegra.ph/file/873b6214ac371c2aa19ce.jpg' } , buttons: but, footer: `© Created By Fdev` })
 					} 
 				break
 			case 'qris':{
@@ -712,7 +712,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 				m.reply(`*Success*\n\n*Follow Intruction In Private Chat*\n\n*Name*: ${name}\n*Password*: **********g`)
 				conn.sendMessage(`${sender.split("@")[0]}@s.whatsapp.net`,'*Token*: '+ '\n\n*type : .login <token>*')
 				break*/
-			case kntl:
+			case 'meme:
 			case 'contact': {
                 conn.sendContact(from, global.owner, m)
           	  }
