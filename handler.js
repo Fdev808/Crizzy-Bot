@@ -699,17 +699,14 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 				tarikom = await fetchJson(`https://ampibismm.my.id/api/json?bot=true&api_key=${global.ApiKey}&action=withdraw&amount=${juml}&wallet=${walle}&nomor=${smm.nomor}&an=${smm.atasnama}`)
 				conn.sendMessage(from, {text: `${tarikom.data.msg}`}, {quoted:m})
 				break
-			case'simi':
 			case'adit':
 				var cimcimi = await fetchJson(`https://api.simsimi.net/v2/?text=${text}&lc=id`)
                 conn.sendMessage(from, { text: cimcimi.success}, {quoted: msg})
 				break
 			case 'darkjokes':
-			case 'jokes': {
                var darkjoke = JSON.parse(fs.readFileSync('./lib/darkjokes.js')) // posisinya sesuain
                var hasil = pickRandom(darkjoke)
                conn.sendMessage(from, {caption: 'Yanto tusbol', image: {url: hasil.result}}, {quoted: msg})
-               limitAdd(sender, limit)
         	    break
 			case'nulis':
 				if(args.length < 1) return m.reply('text nya')
